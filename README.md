@@ -57,7 +57,40 @@ tkinter (included with most Python installations)
 pyinstaller (to create standalone executables)
 ```
 
-## 🚀 How to Use
+## � Setup Virtual Environment (Recommended)
+
+It's recommended to use a virtual environment to keep dependencies isolated:
+
+**Windows:**
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+venv\Scripts\activate
+
+# Install PyInstaller (if you want to compile)
+pip install pyinstaller
+```
+
+**Linux/macOS:**
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate
+
+# Install PyInstaller (if you want to compile)
+pip install pyinstaller
+```
+
+**To deactivate the virtual environment when done:**
+```bash
+deactivate
+```
+
+## �🚀 How to Use
 
 ### Method 1: Run Python Script Directly
 
