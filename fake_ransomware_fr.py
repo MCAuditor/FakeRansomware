@@ -9,7 +9,7 @@ import time
 class FakeRansomware:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("OOPS! Vos fichiers ont été cryptés!")
+        self.root.title("OOPS! Vos fichiers ont été chiffrés!")
         self.root.configure(bg='#8B0000')
         
         # Make fullscreen and prevent closing easily
@@ -47,13 +47,13 @@ class FakeRansomware:
         skull_label.pack(pady=20)
         
         # Main title
-        title = tk.Label(main_frame, text="OOPS! VOS FICHIERS ONT ÉTÉ CRYPTÉS!", 
+        title = tk.Label(main_frame, text="OOPS! VOS FICHIERS ONT ÉTÉ CHIFFRÉS!", 
                         font=('Arial', 28, 'bold'), fg='white', bg='#8B0000')
         title.pack(pady=10)
         
         # Warning message
         warning_text = """
-        Tous vos fichiers importants ont été cryptés!
+        Tous vos fichiers importants ont été chiffrés!
         
         Vos documents, photos, vidéos, bases de données et autres fichiers
         ne sont plus accessibles car ils ont été chiffrés.
