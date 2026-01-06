@@ -181,11 +181,8 @@ This simulation teaches users to:
 ```
 FakeRansomware/
 ├── README.md                          # This file
-└── Ranstest/
-    ├── fake_ransomware_fr.py         # French version
-    ├── fake_ransomware_en.py         # English version
-    ├── compile_instructions.txt      # Compilation guide
-    └── *.spec                        # PyInstaller specifications
+├── fake_ransomware_fr.py         # French version
+├── fake_ransomware_en.py         # English version
 ```
 
 ## ⚖️ Legal Notice
